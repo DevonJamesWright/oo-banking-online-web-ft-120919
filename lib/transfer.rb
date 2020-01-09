@@ -20,10 +20,10 @@ class Transfer
       @status = 'rejected'
     end
   end 
-  def reverse_transfer
-    if self.execute_transaction 
-      @receiver - #{@transfer_amount}
-      @sender + #{@transfer_amount}
-    end 
-  end 
+  #def reverse_transfer
+   # if self.execute_transaction 
+    #  @receiver - #{@transfer_amount}
+     # @sender + #{@transfer_amount}
+    #end 
+  #end 
 end 
