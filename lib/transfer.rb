@@ -25,6 +25,5 @@ class Transfer
       @receiver - #{@transfer_amount}
       @sender + #{@transfer_amount}
     end 
-  end 
 end
 
