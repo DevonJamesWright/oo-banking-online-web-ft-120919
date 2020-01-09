@@ -18,7 +18,7 @@ class Transfer
       @status = 'complete'
     else 
       @status = 'rejected'
-      puts "Transaction rejected. Please check your bank account."
+      p "Transaction rejected. Please check your bank account."
     end
   end 
   #def reverse_transfer
