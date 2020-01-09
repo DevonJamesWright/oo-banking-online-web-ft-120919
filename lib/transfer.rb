@@ -25,8 +25,8 @@ class Transfer
   end 
   def reverse_transfer
     if self.execute_transaction 
-      @receiver - @transfer_amount}
-      @sender + #{@transfer_amount}
+      @receiver - @amount
+      @sender + @amount
     end 
   end 
 end 
