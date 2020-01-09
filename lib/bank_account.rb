@@ -15,14 +15,10 @@ class BankAccount
       "Your balance is $#{@balance}."
     end 
     def valid?
-      binding.pry
-      case
-      when @status == "open"
-        true 
-      when @balance > 0 
-        true 
-      else 
-        false 
+    if @status == "open" && @balance > 0 
+      true 
+    else 
+      false 
       end
     end 
     def close_account
