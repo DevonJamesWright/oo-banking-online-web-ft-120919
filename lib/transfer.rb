@@ -26,5 +26,7 @@ class Transfer
       @sender + #{@transfer_amount}
     else 
       @status = "rejected"
+    end 
+  end 
 end
 
