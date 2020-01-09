@@ -24,4 +24,4 @@ class Transfer
     if self.execute_transaction 
       @receiver - #{@transfer_amount}
       @sender + #{@transfer_amount}
-
+end 
