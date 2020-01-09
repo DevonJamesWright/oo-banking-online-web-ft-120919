@@ -23,10 +23,10 @@ class Transfer
       p "Transaction rejected. Please check your account balance."
     end
   end 
-  #def reverse_transfer
-   # if self.execute_transaction 
-    #  @receiver - @transfer_amount}
-     # @sender + #{@transfer_amount}
-    #end 
-  #end 
+  def reverse_transfer
+    if self.execute_transaction 
+      @receiver - @transfer_amount}
+      @sender + #{@transfer_amount}
+    end 
+  end 
 end 
